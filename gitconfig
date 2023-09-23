@@ -1,0 +1,10 @@
+[user]
+  name = yiwwhl
+  email = yiwwhl@qq.com
+[credential]
+  helper = store
+[core]
+  autocrlf = input
+  ignorecase = true
+[http]
+  proxy = socks5://127.0.0.1:8889
