@@ -15,7 +15,7 @@ alias c="code ."
 alias ct="tmux new -s yiwwhl"
 alias t="tmux attach -t yiwwhl"
 alias d="tmux detach"
-alias yp="ssh -f -NR 8889:localhost:8889 yiwwhl && ssh -f -NR 8889:localhost:8889 yiwwhl"
+alias yp="ssh -f -NR 8888:localhost:8888 yiwwhl && ssh -f -NR 8889:localhost:8889 yiwwhl"
 alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &"
 alias rcset="rcup -v"
 alias lg="lazygit"
@@ -51,3 +51,11 @@ export PATH="/Users/yiwwhl/.cargo/bin:$PATH"
 
 # Fnm
 eval "$(fnm env --use-on-cd)"
+
+# pnpm
+export PNPM_HOME="/Users/yiwwhl/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
