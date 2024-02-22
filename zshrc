@@ -50,10 +50,11 @@ export PATH="/Users/yiwwhl/.cargo/bin:$PATH"
 # Fnm
 eval "$(fnm env --use-on-cd)"
 
-# pnpm
+# Pnpm 
 export PNPM_HOME="/Users/yiwwhl/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-# pnpm end
+# Pnpm End
+
