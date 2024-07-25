@@ -69,3 +69,5 @@ alias yp="ssh -f -NR 8888:localhost:8888 yiwwhl && ssh -f -NR 8889:localhost:888
 alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &"
 alias rcset="rcup -v"
 alias lg="lazygit"
+alias vi="nvim"
+alias vim="nvim"
