@@ -70,3 +70,5 @@ alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 
 alias rcset="rcup -v"
 alias vi="nvim"
 alias vim="nvim"
+eval "$(gh copilot alias -- zsh)"
+eval "$(gh copilot alias -- zsh)"
