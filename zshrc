@@ -19,23 +19,7 @@ source $ZSH/oh-my-zsh.sh
 # Sase
 export MY_PING_PATH=/Applications/SASE.app/Contents/Services
 export PATH=${MY_PING_PATH}:$PATH
-
-# Yazi
-function yy() {
-  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" 
-  yazi "$@" --cwd-file="$tmp"
-  if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-     cd -- "$cwd"
-     fi
-  rm -f -- "$tmp"
-}
-
 # ———————————————————————————————————— Develop Environments ——————————————————————————————————————
-
-# Bun
-[ -s "/Users/yiwwhl/.bun/_bun" ] && source "/Users/yiwwhl/.bun/_bun"
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Cargo
 export PATH="/Users/yiwwhl/.cargo/bin:$PATH"
@@ -43,7 +27,7 @@ export PATH="/Users/yiwwhl/.cargo/bin:$PATH"
 # Fnm
 eval "$(fnm env --use-on-cd)"
 
-# Pnpm 
+# Pnpm
 export PNPM_HOME="/Users/yiwwhl/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
@@ -74,8 +58,3 @@ alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 
 alias rcset="rcup -v"
 alias vi="nvim"
 alias vim="nvim"
-eval "$(gh copilot alias -- zsh)"
-eval "$(gh copilot alias -- zsh)"
-
-# Created by `pipx` on 2024-08-18 03:37:49
-export PATH="$PATH:/Users/yiwwhl/.local/bin"
