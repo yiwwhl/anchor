@@ -51,6 +51,10 @@ case ":$PATH:" in
 esac
 # Pnpm End
 
+# Cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+# Cargo End
+
 # ——————————————————————————————————————— System Settings ————————————————————————————————————————
 
 # Network Proxy
@@ -72,3 +76,6 @@ alias vi="nvim"
 alias vim="nvim"
 eval "$(gh copilot alias -- zsh)"
 eval "$(gh copilot alias -- zsh)"
+
+# Created by `pipx` on 2024-08-18 03:37:49
+export PATH="$PATH:/Users/yiwwhl/.local/bin"
