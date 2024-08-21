@@ -38,7 +38,6 @@ esac
 # Cargo
 export PATH="$HOME/.cargo/bin:$PATH"
 # Cargo End
-
 # ——————————————————————————————————————— System Settings ————————————————————————————————————————
 
 # Network Proxy
