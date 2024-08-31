@@ -48,7 +48,7 @@ export all_proxy=socks5://127.0.0.1:8889
 # System Alias
 alias ls="lsd"
 alias ll="lsd -l"
-alias c="code ."
+alias c="cursor ."
 alias ct="tmux new -s yiwwhl"
 alias t="tmux attach -t yiwwhl"
 alias d="tmux detach"
