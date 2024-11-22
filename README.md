@@ -26,6 +26,7 @@
 git clone --depth 1 git@github.com:yiwwhl/anchor.git ~/.dotfiles
 
 rcup -v
+rcup -t wezterm
 ```
 
 ## preview
