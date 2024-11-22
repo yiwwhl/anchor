@@ -33,6 +33,7 @@ rcup -t wezterm
 
 ```
 .
+├── tag-wezterm
 ├── gitconfig
 ├── LICENSE
 ├── p10k.zsh
