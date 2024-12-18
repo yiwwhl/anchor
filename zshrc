@@ -21,9 +21,6 @@ export MY_PING_PATH=/Applications/SASE.app/Contents/Services
 export PATH=${MY_PING_PATH}:$PATH
 # ———————————————————————————————————— Develop Environments ——————————————————————————————————————
 
-# Cargo
-export PATH="/Users/yiwwhl/.cargo/bin:$PATH"
-
 # Fnm
 eval "$(fnm env --use-on-cd)"
 
