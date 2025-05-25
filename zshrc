@@ -54,7 +54,7 @@ alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 
 alias rcset="rcup -v"
 alias vi="nvim"
 alias vim="nvim"
-alias w="windsurf"
+alias w="windsurf ."
 
 # Added by Windsurf
 export PATH="/Users/yiwwhl/.codeium/windsurf/bin:$PATH"
