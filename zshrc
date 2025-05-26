@@ -45,7 +45,8 @@ export all_proxy=socks5://127.0.0.1:6153
 # System Alias
 alias ls="lsd"
 alias ll="lsd -l"
-alias c="cursor ."
+alias c="windsurf ."
+alias w="windsurf ."
 alias ct="tmux new -s yiwwhl"
 alias t="tmux attach -t yiwwhl"
 alias d="tmux detach"
@@ -54,10 +55,12 @@ alias wx="nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 
 alias rcset="rcup -v"
 alias vi="nvim"
 alias vim="nvim"
-alias w="windsurf ."
 
 # Added by Windsurf
 export PATH="/Users/yiwwhl/.codeium/windsurf/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/yiwwhl/.codeium/windsurf/bin:$PATH"
+
+# Zoxide
+eval "$(zoxide init zsh)"
