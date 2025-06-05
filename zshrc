@@ -45,7 +45,7 @@ export all_proxy=socks5://127.0.0.1:6153
 # System Alias
 alias ls="lsd"
 alias ll="lsd -l"
-alias c="windsurf ."
+alias c="cursor ."
 alias w="windsurf ."
 alias ct="tmux new -s yiwwhl"
 alias t="tmux attach -t yiwwhl"
